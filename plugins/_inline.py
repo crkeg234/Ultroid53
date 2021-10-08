@@ -23,7 +23,7 @@ from ._help import _main_help_menu
 # ================================================#
 notmine = f"This bot is for {OWNER_NAME}"
 
-TLINK = "https://telegra.ph/file/d9c9bc13647fa1d96e764.jpg"
+TLINK = "https://telegra.ph/file/4008c1bfc44b9c5f1fc34.jpg"
 helps = get_string("inline_1")
 
 add_ons = udB.get("ADDONS")
@@ -81,7 +81,7 @@ async def inline_alive(o):
             content=InputWebDocument(TLINK, 0, "image/jpg", []),
         )
     ]
-    await o.answer(RES, switch_pm="👥 ULTROID PORTAL", switch_pm_param="start")
+    await o.answer(RES, switch_pm="📍IR A PV🎮", switch_pm_param="start")
 
 
 @in_pattern("ultd")
@@ -453,7 +453,7 @@ async def on_plug_in_callback_query_handler(event):
     await event.edit(
         get_string("inline_5"),
         file=_file_to_replace,
-        buttons=Button.inline("Oᴘᴇɴ Aɢᴀɪɴ", data="open"),
+        buttons=Button.inline("Oᴘᴇɴ Aɢᴀɪɴ📂", data="open"),
     )
 
 
@@ -485,7 +485,7 @@ async def on_plug_in_callback_query_handler(event):
         ],
         [
             Button.inline("« Bᴀᴄᴋ", data="back"),
-            Button.inline("••Cʟᴏꜱᴇ••", data="close"),
+            Button.inline("••Cʟᴏꜱᴇ📕••", data="close"),
         ],
     ]
     try:
